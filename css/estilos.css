@@ -19,3 +19,7 @@ p{
     border-radius: 1rem;
     padding: 1rem;
 }
+img{
+    display: block;
+    margin: auto;
+}
