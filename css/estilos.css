@@ -1,0 +1,21 @@
+:root{
+    --background: hsl(170,80%,90%);
+}
+
+
+body{
+    background-color: var(--background);
+    font-size: 1.75rem;
+}
+h1{
+    width: max-content;
+    background: linear-gradient(90deg, var(--background) 0%, hsl(from var(--background) h calc(s/2) calc(l / 2)) 30%,  hsl(from var(--background) h calc(s/2) calc(l / 2)) 70%, var(--background) 100%);
+    color: aliceblue;
+    border-radius: 1rem;
+}
+
+p{
+    background: hsl(from var(--background) h s calc(l / 1.2));
+    border-radius: 1rem;
+    padding: 1rem;
+}
